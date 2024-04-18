@@ -1,9 +1,9 @@
 .home--main {
-    /* background-image: url('../assets/images/homeCoverPage.png');
+    background-image: url('../assets/images/homeCoverPage.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    object-fit: cover; */
+    object-fit: cover;
 
     display: flex;
     flex-direction: column;
