@@ -14,7 +14,7 @@ export default function Home() {
                 </p>
             </div>
 
-            <Link className="find-ur-van-btn" to={'vans'}>Find your van</Link>
+            <button className="find-ur-van-btn">Find your van</button>
         </main>
     )
 }
