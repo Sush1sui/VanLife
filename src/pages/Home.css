@@ -1,0 +1,57 @@
+.home--main {
+    background-image: url('../assets/images/homeCoverPage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 24px;
+}
+
+.home--main > div {
+    max-width: 900px;
+    min-width: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.home--main > div > h1 {
+    font-size: clamp(60px, 3%, 100%);
+}
+.home--main > div > p {
+    font-size: 1.2rem;
+}
+
+.find-ur-van-btn {
+    background-color: #FF8C38;
+    border: 3px solid #FF8C38;
+    color: white;
+    width: 200px;
+    border: none;
+    height: 60px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: grid;
+    place-content: center;
+    font-size: 100%;
+    font-weight: bold;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.find-ur-van-btn:hover {
+    background-color: white;
+    color: #FF8C38;
+}
+.find-ur-van-btn:active {
+    background-color: #FF8C38;
+    color: white;
+}
