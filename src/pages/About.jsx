@@ -30,9 +30,9 @@ export default function About() {
                     Your destination is waiting. <br />
                     Your van is ready.
                 </h2>
-                <button className="explore-our-vans-btn">
+                <Link className="explore-our-vans-btn" to={'/vans'}>
                     Explore our vans
-                </button>
+                </Link>
             </div>
             
         </main>
